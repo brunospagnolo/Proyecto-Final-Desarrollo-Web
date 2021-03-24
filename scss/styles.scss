@@ -1,0 +1,254 @@
+$Index: rgb(0, 255, 136);
+$Servicios: rgb(255, 145, 0);
+$Galeria: rgb(255, 87, 227);
+$Contacto: rgb(40, 151, 255);
+$Acercade: rgb(255, 50, 50);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FUENTE TÍTULOS */
+@import
+    url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+/* FUENTE PÁRRAFOS */
+@import
+    url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+
+/* ESTILOS GENERALES */
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.438);
+    padding: 3%;
+}
+
+h2{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px white;
+    padding: 3%;
+}
+
+h3{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px white;
+    padding: 3%;
+}
+
+p{
+    color: white;
+    font-family: 'Changa', sans-serif;
+}
+
+nav{
+    font-family: 'Changa', sans-serif;
+    font-size: 120%;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.144);
+}
+
+a{
+    color: inherit;
+}
+
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+        p{
+        color: black;
+        font-size: 110%;
+    }
+}
+
+/* MARGIN GENERAL */
+
+.marginsPrincipal{
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FUENTES ESTILOS CLASES*/
+
+.colorLetrasIndex{
+    color: $Index;
+}
+
+.colorLetrasServicios{
+    color: $Servicios;
+}
+
+.colorLetrasGaleria{
+    color: $Galeria;
+}
+
+.colorLetrasAcercade{
+    color: $Acercade;
+}
+
+.colorLetrasContacto{
+    color: $Contacto;
+}
+
+.espaciado{
+    letter-spacing: 2pt;
+}
+
+.propiedadP{
+    @extend p ;
+}
+
+/* HEADERS */
+
+.headerIndex{
+    background-color: $Index;
+    padding: 2%;
+}
+
+.headerServicios{
+    background-color: $Servicios;
+    padding: 2%;
+}
+
+.headerGaleria{
+    background-color: $Galeria;
+    padding: 2%;
+}
+
+.headerAcercade{
+    background-color: $Acercade;
+    padding: 2%;
+}
+
+.headerContacto{
+    background-color: $Contacto;
+    padding: 2%;
+}
+
+.font__navbar{
+    font-size: medium;
+}
+
+/* FOOTERS */
+
+@mixin footers ($fondo){
+    background-color: $fondo;
+    color: black;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+.footerIndex{
+    @include footers($Index)
+}
+
+.footerServicios{
+    @include footers($Servicios)
+}
+
+.footerGaleria{
+    @include footers($Galeria)
+}
+
+.footerAcercade{
+    @include footers($Acercade)
+}
+
+.footerContacto{
+    @include footers($Contacto)
+}
+
+/* BORDERS ESTILOS */
+
+.borderServicios{
+    border: 6px solid $Servicios;
+    padding: 2%;
+}
+
+.borderGaleria{
+    border: 6px solid $Galeria;
+    padding: 2%;
+}
+
+.borderAcercaDe{
+    border: 6px solid $Acercade;
+    padding: 2%;
+}
+
+.borderContacto{
+    border: 6px solid $Contacto;
+    padding: 2%;
+}
+
+.borderBlanco{
+    border: 6px solid white;
+    padding: 2%;
+}
+
+
+/* CLASES INDEX */
+
+.titulo-index{
+    padding-top: 9%;
+}
+
+.imgIndex{
+    background-color: $Index;
+    border-radius: 50%;
+    border: 10px solid rgb(0, 199, 136);
+    box-shadow: 3px 3px 2px 3px white;
+}
+
+.imgIndexMouse{
+    @extend .imgIndex;
+    box-shadow: -3px -3px 2px 3px white;
+}
+
+.textShadowNegative{
+    text-shadow: -2px -2px white;
+}
+
+/* CLASES CONTACTO */
+
+.propiedadPcontacto{
+    @extend p ;
+    color: $Contacto;
+}
+
+/* CLASES SERVICIOS */
+
+.videoSize{
+    width: 100%;
+    height: 100%;
+}
+
+/* CLASES GALERÍA */
+
+.galeriaRgb1{
+    color: rgb(255, 0, 0);
+}
+.galeriaRgb2{
+    color: rgb(0, 255, 0);
+}
+.galeriaRgb3{
+    color: rgb(0, 0, 255);
+}
+
+
+/* CLASES ACERCA DE */
+
+.imgSizeAcercaDe{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}

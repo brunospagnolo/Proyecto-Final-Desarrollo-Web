@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* FUENTE TÍTULOS */
+/* FUENTE PÁRRAFOS */
+/* ESTILOS GENERALES */
+body {
+  background-color: black; }
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.438);
+  padding: 3%; }
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 2px 2px white;
+  padding: 3%; }
+
+h3 {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 2px 2px white;
+  padding: 3%; }
+
+p, .propiedadP, .propiedadPcontacto {
+  color: white;
+  font-family: 'Changa', sans-serif; }
+
+nav {
+  font-family: 'Changa', sans-serif;
+  font-size: 120%;
+  text-shadow: 2px 3px rgba(0, 0, 0, 0.144); }
+
+a {
+  color: inherit; }
+
+iframe {
+  margin-left: auto;
+  margin-right: auto; }
+
+footer p, footer .propiedadP, footer .propiedadPcontacto {
+  color: black;
+  font-size: 110%; }
+
+/* MARGIN GENERAL */
+.marginsPrincipal {
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* FUENTES ESTILOS CLASES*/
+.colorLetrasIndex {
+  color: #00ff88; }
+
+.colorLetrasServicios {
+  color: #ff9100; }
+
+.colorLetrasGaleria {
+  color: #ff57e3; }
+
+.colorLetrasAcercade {
+  color: #ff3232; }
+
+.colorLetrasContacto {
+  color: #2897ff; }
+
+.espaciado {
+  letter-spacing: 2pt; }
+
+/* HEADERS */
+.headerIndex {
+  background-color: #00ff88;
+  padding: 2%; }
+
+.headerServicios {
+  background-color: #ff9100;
+  padding: 2%; }
+
+.headerGaleria {
+  background-color: #ff57e3;
+  padding: 2%; }
+
+.headerAcercade {
+  background-color: #ff3232;
+  padding: 2%; }
+
+.headerContacto {
+  background-color: #2897ff;
+  padding: 2%; }
+
+.font__navbar {
+  font-size: medium; }
+
+/* FOOTERS */
+.footerIndex {
+  background-color: #00ff88;
+  color: black;
+  margin-top: 3%;
+  padding: 1%; }
+
+.footerServicios {
+  background-color: #ff9100;
+  color: black;
+  margin-top: 3%;
+  padding: 1%; }
+
+.footerGaleria {
+  background-color: #ff57e3;
+  color: black;
+  margin-top: 3%;
+  padding: 1%; }
+
+.footerAcercade {
+  background-color: #ff3232;
+  color: black;
+  margin-top: 3%;
+  padding: 1%; }
+
+.footerContacto {
+  background-color: #2897ff;
+  color: black;
+  margin-top: 3%;
+  padding: 1%; }
+
+/* BORDERS ESTILOS */
+.borderServicios {
+  border: 6px solid #ff9100;
+  padding: 2%; }
+
+.borderGaleria {
+  border: 6px solid #ff57e3;
+  padding: 2%; }
+
+.borderAcercaDe {
+  border: 6px solid #ff3232;
+  padding: 2%; }
+
+.borderContacto {
+  border: 6px solid #2897ff;
+  padding: 2%; }
+
+.borderBlanco {
+  border: 6px solid white;
+  padding: 2%; }
+
+/* CLASES INDEX */
+.titulo-index {
+  padding-top: 9%; }
+
+.imgIndex, .imgIndexMouse {
+  background-color: #00ff88;
+  border-radius: 50%;
+  border: 10px solid #00c788;
+  box-shadow: 3px 3px 2px 3px white; }
+
+.imgIndexMouse {
+  box-shadow: -3px -3px 2px 3px white; }
+
+.textShadowNegative {
+  text-shadow: -2px -2px white; }
+
+/* CLASES CONTACTO */
+.propiedadPcontacto {
+  color: #2897ff; }
+
+/* CLASES SERVICIOS */
+.videoSize {
+  width: 100%;
+  height: 100%; }
+
+/* CLASES GALERÍA */
+.galeriaRgb1 {
+  color: red; }
+
+.galeriaRgb2 {
+  color: lime; }
+
+.galeriaRgb3 {
+  color: blue; }
+
+/* CLASES ACERCA DE */
+.imgSizeAcercaDe {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
